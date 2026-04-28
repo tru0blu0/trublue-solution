@@ -1,4 +1,4 @@
-import { services, caseStudies, approach, site } from './data'
+import { services, clientResults, approach, site } from './data'
 
 interface WebMCPTool {
   name: string
@@ -45,7 +45,7 @@ export function registerWebMCP() {
     {
       name: 'get_case_studies',
       description:
-        'List verified case studies with metrics from Trublue Solution engagements: freight brokerage buildout, restaurant turnaround, and legal operations.',
+        'List verified client results from Trublue Solution engagements across logistics, restaurant, and legal industries.',
       inputSchema: {
         type: 'object',
         properties: {},
@@ -53,12 +53,13 @@ export function registerWebMCP() {
       },
       execute: async () => ({
         provider: site.legalName,
-        caseStudies: caseStudies.map((cs) => ({
-          domain: cs.domain,
-          headline: cs.headline,
-          tagline: cs.tagline,
-          challenge: cs.challenge,
-          results: cs.results,
+        clientResults: clientResults.map((cr) => ({
+          client: cr.client,
+          industry: cr.industry,
+          summary: cr.summary,
+          situation: cr.situation,
+          whatWeDid: cr.whatWeDid,
+          outcomes: cr.outcomes,
         })),
       }),
     },
