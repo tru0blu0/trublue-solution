@@ -61,7 +61,7 @@ export const services = [
   {
     title: 'Supply Chain & Logistics Ops',
     icon: '🚚',
-    description: 'Carrier onboarding, cost control, ELD deployment, cross-border compliance. Built from frontline experience running brokerage operations.',
+    description: 'Carrier onboarding, cost control, ELD deployment, cross-border compliance. We bring hands-on experience building brokerage operations — so you get systems that work in the real world, not just on paper.',
     deliverables: ['Carrier network setup', 'Cost control program', 'Compliance monitoring'],
   },
   {
@@ -75,18 +75,18 @@ export const services = [
 export const industryResults = [
   {
     industry: 'Logistics & Transportation',
-    description: 'Built freight brokerage operations from zero — FMCSA compliance, TMS implementation, carrier onboarding, and cross-border operations. Clients achieve full regulatory compliance with zero enforcement actions.',
-    highlights: ['ELD fleet compliance', 'TMS selection & deployment', 'Carrier network development'],
+    description: 'Your operation runs on tight margins and tighter regulations. We build the compliance programs, carrier networks, and TMS infrastructure that keep you audit-ready and cost-controlled — from ELD mandates to cross-border documentation.',
+    highlights: ['FMCSA & DOT compliance programs', 'TMS selection and deployment', 'Carrier onboarding and oversight'],
   },
   {
     industry: 'Restaurant & Hospitality',
-    description: 'Transformed chaotic operations into profitable, systems-driven businesses. P&L buildout, vendor consolidation, COGS reduction, and SOP development that survive staff turnover.',
-    highlights: ['71% revenue growth achieved', 'COGS reduced to 31.7%', 'Dual-vendor sourcing strategies'],
+    description: 'Thin margins don\'t leave room for operational waste. We build the P&L systems, vendor controls, and documented processes that give ownership real visibility into every cost center — so you can scale without losing control.',
+    highlights: ['P&L buildout and margin analysis', 'Multi-vendor sourcing strategies', 'SOP development and staff training'],
   },
   {
     industry: 'Legal & Professional Services',
-    description: 'Unified disconnected practice management systems into integrated workflows. Tech stack integration, client portal deployment, e-filing administration, and compliance documentation.',
-    highlights: ['Practice management integration', 'E-filing systems', 'Client onboarding SOPs'],
+    description: 'Disconnected systems cost billable hours. We integrate your practice management, billing, and client communication into a unified workflow — so your team spends less time on admin and more time on clients.',
+    highlights: ['Practice management integration', 'Client portal and e-filing setup', 'Compliance documentation and SOPs'],
   },
 ]
 
