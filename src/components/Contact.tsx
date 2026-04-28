@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { site, about } from '../data'
+import { site } from '../data'
 
 export default function Contact() {
   return (

@@ -5,7 +5,6 @@ import CaseStudies from './components/CaseStudies'
 import Approach from './components/Approach'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
-import { motion } from 'framer-motion'
 
 export default function App() {
   return (

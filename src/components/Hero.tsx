@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { hero, stats, site, about } from '../data'
+import { hero, stats, about } from '../data'
 
 export default function Hero() {
   return (
