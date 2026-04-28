@@ -28,6 +28,11 @@ export default function Footer() {
             <p className="text-xs text-text-light/30 mt-1">
               {site.domain} · <a href={`mailto:${site.email}`} className="hover:text-gold transition-colors">{site.email}</a>
             </p>
+            <p className="text-xs text-text-light/30 mt-2">
+              <a href={site.portfolioUrl} target="_blank" rel="noopener noreferrer" className="hover:text-gold transition-colors">
+                Meet the founder →
+              </a>
+            </p>
           </div>
         </div>
       </div>

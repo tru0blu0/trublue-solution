@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { hero, stats, about } from '../data'
+import { hero, stats, about, site } from '../data'
 
 export default function Hero() {
   return (
@@ -61,7 +61,7 @@ export default function Hero() {
             </div>
             <div className="gold-rule my-6" />
             <p className="text-sm text-text-muted">
-              Founded by <span className="font-semibold text-text-dark">{about.name}</span> — 16 years of frontline operations leadership in logistics, restaurant, legal, and IT.
+              Founded by <a href={site.portfolioUrl} target="_blank" rel="noopener noreferrer" className="font-semibold text-navy hover:text-gold transition-colors">{about.name}</a> — 16 years of frontline operations leadership in logistics, restaurant, legal, and IT.
             </p>
           </motion.div>
         </div>
