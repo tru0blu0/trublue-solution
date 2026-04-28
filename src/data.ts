@@ -72,21 +72,60 @@ export const services = [
   },
 ]
 
-export const industryResults = [
+export const clientResults = [
   {
+    id: 'logistics',
+    client: 'Midwest Transportation Company',
     industry: 'Logistics & Transportation',
-    description: 'Your operation runs on tight margins and tighter regulations. We build the compliance programs, carrier networks, and TMS infrastructure that keep you audit-ready and cost-controlled — from ELD mandates to cross-border documentation.',
-    highlights: ['FMCSA & DOT compliance programs', 'TMS selection and deployment', 'Carrier onboarding and oversight'],
+    summary: 'Launched a fully compliant freight brokerage operation from absolute zero.',
+    situation: 'The company had no FMCSA authority, no TMS, no carrier network, and fleet drivers still on paper logs — with a single-customer dependency that put the entire business at risk.',
+    whatWeDid: 'Secured federal operating authority, selected and deployed a modern TMS, achieved 100% ELD fleet compliance ahead of the federal mandate, built carrier onboarding and compliance systems, and qualified the operation for government contracts.',
+    outcomes: [
+      { metric: '100%', label: 'Fleet ELD compliance before federal deadline' },
+      { metric: '0', label: 'Regulatory enforcement actions' },
+      { metric: 'Day 1', label: 'Operating authority active at launch' },
+    ],
+    testimonial: {
+      quote: 'They built our entire freight brokerage operation from scratch — the compliance, the technology, the processes. In three years, zero enforcement actions and we qualified for DoD contracts. They documented everything so thoroughly we could hand it off without missing a beat.',
+      name: 'General Manager',
+      role: 'Midwest carrier, 50+ power units',
+    },
   },
   {
+    id: 'restaurant',
+    client: 'Regional Restaurant Group',
     industry: 'Restaurant & Hospitality',
-    description: 'Thin margins don\'t leave room for operational waste. We build the P&L systems, vendor controls, and documented processes that give ownership real visibility into every cost center — so you can scale without losing control.',
-    highlights: ['P&L buildout and margin analysis', 'Multi-vendor sourcing strategies', 'SOP development and staff training'],
+    summary: 'Turned a money-losing operation into a profitable, systems-driven business.',
+    situation: 'No P&L system existed — ownership had no visibility into where money was going. COGS ran unchecked at 36-42%, vendor spending was unmonitored, and no documented processes meant every shift depended on who showed up.',
+    whatWeDid: 'Built a complete financial operations infrastructure: P&L modeling, 30-category vendor reconciliation across 200+ suppliers, dual-vendor sourcing strategy, COGS tracking program, and documented SOPs for every role — giving ownership the data to make decisions and the systems to enforce them.',
+    outcomes: [
+      { metric: '+71%', label: 'Revenue increase' },
+      { metric: '31.7%', label: 'COGS maintained — 89 consecutive weeks' },
+      { metric: '0', label: 'Compliance violations across full engagement' },
+    ],
+    testimonial: {
+      quote: 'They built the P&L system from scratch — gave me visibility into every cost center I\'d never been able to see before. Got our costs under control, implemented vendor strategies that improved margins, and documented every process. Best operational investment we ever made.',
+      name: 'Owner / Shareholder',
+      role: 'Multi-unit restaurant group',
+    },
   },
   {
+    id: 'legal',
+    client: 'Regional Law Firm',
     industry: 'Legal & Professional Services',
-    description: 'Disconnected systems cost billable hours. We integrate your practice management, billing, and client communication into a unified workflow — so your team spends less time on admin and more time on clients.',
-    highlights: ['Practice management integration', 'Client portal and e-filing setup', 'Compliance documentation and SOPs'],
+    summary: 'Unified a disconnected technology stack into a seamless operation.',
+    situation: 'The firm\'s practice management system operated in a silo — no sync with email or calendar, no client portal for document exchange, no integrated payment processing. Managing 20+ concurrent client files across 7 practice areas without standardized workflows was costing billable hours.',
+    whatWeDid: 'Integrated the practice management platform with Google Workspace, deployed a secure client portal and compliant payment processing, built the client onboarding SOP from scratch, and established e-filing workflows that processed filings daily with a perfect acceptance record.',
+    outcomes: [
+      { metric: '~20', label: 'Concurrent client files managed seamlessly' },
+      { metric: '7+', label: 'Practice areas supported on unified platform' },
+      { metric: '0', label: 'E-filing rejections across multi-year engagement' },
+    ],
+    testimonial: {
+      quote: 'They connected systems we didn\'t even know could talk to each other. Our practice management, email, calendar, billing, and client portal all work together now. The onboarding SOP they built is still what we use with every new client.',
+      name: 'Managing Partner',
+      role: 'Regional law firm, multiple practice areas',
+    },
   },
 ]
 
