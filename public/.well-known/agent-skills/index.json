@@ -1,0 +1,33 @@
+{
+  "$schema": "https://agentskills.io/schema/v0.2.0",
+  "skills": [
+    {
+      "name": "operations-consulting",
+      "type": "site",
+      "description": "Trublue Solution — operations consulting services for manufacturers, logistics operators, and growth-stage businesses in Jackson, MI. Services include process engineering, compliance systems, TMS implementation, supply chain ops, and financial operations.",
+      "url": "https://trubluesolution.com/#services",
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "name": "case-studies",
+      "type": "site",
+      "description": "Verified case studies from Trublue Solution: freight brokerage buildout (100% ELD compliance, 0 FMCSA violations), restaurant turnaround (+71% revenue, 31.7% COGS), and legal operations (20 concurrent matters, 0 e-filing rejections).",
+      "url": "https://trubluesolution.com/#results",
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "name": "contact-assessment",
+      "type": "site",
+      "description": "Request a free operations assessment from Trublue Solution. Contact: jimchamberlin7@gmail.com, 517-936-1032, Jackson, MI.",
+      "url": "https://trubluesolution.com/#contact",
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+    },
+    {
+      "name": "approach-methodology",
+      "type": "site",
+      "description": "Trublue Solution's 4-step operations methodology: 01 Document AS-IS, 02 Build measurement infrastructure, 03 Fix the system not the symptom, 04 Leave it self-sustaining.",
+      "url": "https://trubluesolution.com/#approach",
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+    }
+  ]
+}

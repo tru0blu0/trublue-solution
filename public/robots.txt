@@ -1,0 +1,33 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://trubluesolution.com/sitemap.xml
+
+# ── AI Crawler Rules ──
+# OpenAI
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+# Anthropic
+User-agent: Claude-Web
+Allow: /
+
+# Google AI
+User-agent: Google-Extended
+Allow: /
+
+# Meta
+User-agent: meta-externalagent
+Disallow: /
+
+# Common Crawl (used by many AI training datasets)
+User-agent: CCBot
+Allow: /
+
+# ── Content Signals ──
+# https://contentsignals.org/
+Content-Signal: ai-train=no, search=yes, ai-input=yes

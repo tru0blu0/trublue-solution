@@ -1,0 +1,28 @@
+# ── Security Headers (global) ──
+/*
+  X-Frame-Options: DENY
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=()
+
+# ── CORS for well-known discovery endpoints ──
+/.well-known/*
+  Access-Control-Allow-Origin: *
+
+# ── Link Headers for agent discovery (RFC 8288) ──
+/
+  Link: </sitemap.xml>; rel="sitemap"
+  Link: </robots.txt>; rel="robots"
+  Link: </.well-known/agent-skills/index.json>; rel="agent-skills"
+
+# ── Content types for well-known endpoints ──
+/.well-known/agent-skills/*
+  Content-Type: application/json; charset=utf-8
+/robots.txt
+  Content-Type: text/plain; charset=utf-8
+/sitemap.xml
+  Content-Type: application/xml; charset=utf-8
+
+# ── Cache long-lived fingerprinted assets ──
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable
