@@ -1,4 +1,4 @@
-import { services, caseStudies, approach, site, about } from './data'
+import { services, caseStudies, approach, site } from './data'
 
 interface WebMCPTool {
   name: string
