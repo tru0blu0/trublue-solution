@@ -1,0 +1,35 @@
+{
+  "linkset": [
+    {
+      "anchor": "https://trubluesolution.com/",
+      "service-desc": [
+        {
+          "href": "https://trubluesolution.com/.well-known/agent-skills/index.json",
+          "type": "application/json",
+          "title": "Trublue Solution — Agent Skills Discovery"
+        }
+      ],
+      "service-doc": [
+        {
+          "href": "https://trubluesolution.com/#services",
+          "type": "text/html",
+          "title": "Operations Consulting Services"
+        }
+      ],
+      "describedby": [
+        {
+          "href": "https://trubluesolution.com/sitemap.xml",
+          "type": "application/xml",
+          "title": "Site Map"
+        }
+      ],
+      "status": [
+        {
+          "href": "https://trubluesolution.com/",
+          "type": "text/html",
+          "title": "Homepage (health check — 200 OK)"
+        }
+      ]
+    }
+  ]
+}
