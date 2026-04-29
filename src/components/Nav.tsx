@@ -53,10 +53,10 @@ export default function Nav() {
         {/* CTA button */}
         <div className="hidden md:block">
           <a
-            href="#contact"
+            href="#book"
             className="font-mono text-[10px] tracking-[0.12em] uppercase px-5 py-2.5 bg-navy text-white hover:bg-navy-light transition-colors rounded-md font-medium"
           >
-            Free Assessment
+            Book a Call
           </a>
         </div>
 
@@ -93,11 +93,11 @@ export default function Nav() {
               </a>
             ))}
             <a
-              href="#contact"
+              href="#book"
               className="font-mono text-sm uppercase px-8 py-3 bg-navy text-white rounded-md"
               onClick={() => setMenuOpen(false)}
             >
-              Free Assessment
+              Book a Call
             </a>
           </motion.div>
         )}
