@@ -4,6 +4,7 @@ import Services from './components/Services'
 import CaseStudies from './components/CaseStudies'
 import Approach from './components/Approach'
 import Booking from './components/Booking'
+import AboutSection from './components/AboutSection'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 
@@ -16,6 +17,7 @@ export default function App() {
         <Services />
         <CaseStudies />
         <Approach />
+        <AboutSection />
         <Booking />
         <Contact />
       </main>

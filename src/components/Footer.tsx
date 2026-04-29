@@ -33,6 +33,11 @@ export default function Footer() {
                 Meet the founder →
               </a>
             </p>
+            <p className="text-xs text-text-light/30 mt-2">
+              <a href={`mailto:${site.email}?subject=Client%20Referral`} className="hover:text-gold transition-colors">
+                Refer a client →
+              </a>
+            </p>
           </div>
         </div>
       </div>

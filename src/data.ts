@@ -163,5 +163,13 @@ export const approach = [
 export const about = {
   name: 'Jimmy Chamberlin',
   title: 'Founder & Operations Architect',
-  bio: '16 years of frontline operations leadership across logistics, restaurant, legal, and IT. BBA from Baker College. I built Trublue Solution to bring operational infrastructure to businesses that are scaling faster than their processes can handle — without the overhead of a full-time COO.',
+  story: 'I spent 16 years inside the operations other consultants only advise on — running P&Ls, deploying TMS platforms, building compliance programs from zero, and documenting processes that survived staff turnover across four industries. Every system I built had to work in the real world: with real employees, real deadlines, and real consequences when something broke.',
+  why: 'I started Trublue Solution because most operations consulting comes from people who\'ve never actually run an operation. They deliver slide decks. We deliver systems that run without us — documented, measured, and built to survive the person who built them.',
+  differentiation: 'We don\'t just identify what\'s broken. We fix it, document it, and train your team to run it. Then we leave — and it keeps working. That\'s the difference between advice and infrastructure.',
+  credentials: [
+    'BBA — Business Administration, Baker College (2025)',
+    'Michigan Notary Public — active through Feb 2028',
+    '16 years operations leadership across 4 industries',
+    'P&L ownership, COGS control, vendor management — not theory, practice',
+  ],
 }
