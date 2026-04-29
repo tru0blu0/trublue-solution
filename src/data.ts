@@ -23,17 +23,10 @@ export const navItems = [
 
 export const hero = {
   headline: 'Operations That Run Without You.',
-  subheadline: 'Jackson, Michigan\'s operations consulting firm. We work with local manufacturers, logistics operators, and growth-stage businesses — building the systems, documenting the processes, and training the teams so your business performs whether we\'re in the room or not.',
+  subheadline: 'We work with companies scaling faster than their operations can handle. Automotive suppliers, food manufacturers, defense contractors, and logistics operators — we build the systems, document the processes, and train the teams so your business performs whether we\'re in the room or not.',
   cta: 'Book a Call',
   secondaryCta: 'See Our Results',
 }
-
-export const jacksonStats = [
-  { value: 100, suffix: '+', label: 'Manufacturers in Jackson County' },
-  { value: 9, suffix: 'K', label: 'Manufacturing Jobs in Jackson MSA' },
-  { value: 11, suffix: 'K', label: 'Trade & Logistics Jobs Locally' },
-  { value: 4, suffix: '', label: 'Target Industries Served' },
-]
 
 export const stats = [
   { value: 16, suffix: '+', label: 'Years Operations Leadership' },
@@ -47,43 +40,43 @@ export const services = [
     title: 'Operations Diagnostic',
     icon: '🔍',
     price: 'From $2,500',
-    description: 'We map your AS-IS process — the real workflow, not the org chart. You get a gap analysis and prioritized roadmap. No slide decks. Real findings.',
+    description: 'Your operation is stretched thin — labor is tight, costs are climbing, and you\'re firefighting instead of building. We map your actual processes, find the bottlenecks your team has learned to work around, and deliver a prioritized roadmap. No slide decks. Real findings you can act on.',
     deliverables: ['AS-IS process map', 'Gap analysis report', 'Prioritized action plan'],
   },
   {
     title: 'Process Engineering & SOPs',
     icon: '⚙️',
     price: 'Starting at $5,000',
-    description: 'We design workflows that eliminate root causes, not symptoms. Every SOP is documented, tested, and built to survive staff turnover.',
+    description: 'Your best people have the process in their heads. If they leave, it leaves with them. We design workflows that eliminate root causes and document them so thoroughly that a new hire can follow them — whether you\'re running one shift or three.',
     deliverables: ['Documented SOPs', 'Optimized workflows', 'Training materials'],
   },
   {
     title: 'Compliance & Systems Build',
     icon: '🛡️',
     price: 'Project-based',
-    description: 'FMCSA, MLCC, OSHA — we build compliance programs that keep you audit-ready. Living systems your team actually uses, not binders on a shelf.',
+    description: 'Whether it\'s FMCSA for your fleet, FDA for your production line, or DFARS for your defense contracts — compliance isn\'t optional and it isn\'t getting simpler. We build living compliance systems your team actually uses, not binders that gather dust until audit day.',
     deliverables: ['Compliance program', 'Audit-ready documentation', 'Staff training'],
   },
   {
     title: 'TMS & Tech Stack Implementation',
     icon: '💻',
     price: 'Project-based',
-    description: 'Wrong system? No system? We select, implement, and train your team on the right TMS, MDM, or practice management platform for your operation.',
+    description: 'The right TMS pays for itself in 6 months. The wrong one costs you double. We select, implement, and train your team on the platform that fits your operation — whether you\'re moving freight across the border or across the county.',
     deliverables: ['Vendor selection', 'Implementation', 'Team training'],
   },
   {
-    title: 'Supply Chain & Logistics Ops',
+    title: 'Supply Chain & Vendor Management',
     icon: '🚚',
     price: 'Project-based',
-    description: 'Carrier onboarding, cost control, ELD deployment, cross-border compliance. We bring hands-on experience building brokerage operations — so you get systems that work in the real world, not just on paper.',
-    deliverables: ['Carrier network setup', 'Cost control program', 'Compliance monitoring'],
+    description: 'Supplier consolidation, carrier vetting, cross-border documentation — your supply chain has more moving parts than ever. We build the systems that give you visibility into every link, from raw material to delivery dock.',
+    deliverables: ['Vendor consolidation strategy', 'Cost control program', 'Carrier compliance monitoring'],
   },
   {
     title: 'Financial Operations',
     icon: '📊',
     price: 'From $1,500',
-    description: 'P&L buildout, vendor reconciliation, COGS tracking. We put measurement infrastructure in place before making changes — you can\'t manage what you can\'t measure.',
-    deliverables: ['P&L system', 'Vendor ledger', 'Margin analysis'],
+    description: 'If you can\'t see where your money is going, you can\'t control where it ends up. We build P&L systems, vendor reconciliation processes, and COGS tracking that give ownership real-time visibility — because you can\'t manage what you can\'t measure.',
+    deliverables: ['P&L system buildout', 'Vendor ledger reconciliation', 'Margin analysis'],
   },
 ]
 

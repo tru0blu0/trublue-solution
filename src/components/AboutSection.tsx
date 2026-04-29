@@ -63,29 +63,6 @@ export default function About() {
             </div>
 
             <div className="card-base p-6">
-              <h3 className="font-display font-bold text-navy mb-4 text-sm uppercase tracking-[0.1em]">Jackson by the Numbers</h3>
-              <div className="grid grid-cols-2 gap-3">
-                <div className="text-center p-3 bg-bg-light rounded-md">
-                  <div className="font-display text-2xl font-bold text-navy">100+</div>
-                  <div className="text-[10px] text-text-muted uppercase tracking-[0.05em] mt-0.5">Manufacturers in Jackson County</div>
-                </div>
-                <div className="text-center p-3 bg-bg-light rounded-md">
-                  <div className="font-display text-2xl font-bold text-navy">9K</div>
-                  <div className="text-[10px] text-text-muted uppercase tracking-[0.05em] mt-0.5">Manufacturing Jobs</div>
-                </div>
-                <div className="text-center p-3 bg-bg-light rounded-md">
-                  <div className="font-display text-2xl font-bold text-navy">11K</div>
-                  <div className="text-[10px] text-text-muted uppercase tracking-[0.05em] mt-0.5">Trade & Logistics Jobs</div>
-                </div>
-                <div className="text-center p-3 bg-bg-light rounded-md">
-                  <div className="font-display text-2xl font-bold text-navy">500+</div>
-                  <div className="text-[10px] text-text-muted uppercase tracking-[0.05em] mt-0.5">Chamber Members</div>
-                </div>
-              </div>
-              <p className="text-[9px] text-text-muted mt-4 text-center">BLS Jackson MSA (Feb 2026) · Accelerate Jackson</p>
-            </div>
-
-            <div className="card-base p-6">
               <h3 className="font-display font-bold text-navy mb-4 text-sm uppercase tracking-[0.1em]">Credentials</h3>
               <ul className="space-y-2.5">
                 {about.credentials.map((c) => (

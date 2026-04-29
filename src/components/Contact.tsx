@@ -33,8 +33,8 @@ export default function Contact() {
             <div>
               <h3 className="font-display font-bold text-navy mb-1">Free Operations Health Check</h3>
               <p className="text-sm text-text-muted leading-relaxed mb-3">
-                A 10-point diagnostic checklist built for Jackson County manufacturers and
-                logistics operators. Identify gaps in process, measurement, and documentation
+                A 10-point diagnostic checklist to assess your operation's readiness
+                for scale. Identify gaps in process, measurement, and documentation
                 before they become expensive problems.
               </p>
               <a
