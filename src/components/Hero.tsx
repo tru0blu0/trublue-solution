@@ -26,7 +26,7 @@ export default function Hero() {
             </p>
             <div className="flex flex-wrap gap-4">
               <a
-                href="#contact"
+                href="#book"
                 className="inline-flex items-center gap-2 font-mono text-sm uppercase tracking-[0.1em] px-6 py-3.5 bg-navy text-white hover:bg-navy-light transition-colors rounded-md font-medium"
               >
                 {hero.cta}

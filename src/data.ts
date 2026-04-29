@@ -21,8 +21,8 @@ export const navItems = [
 
 export const hero = {
   headline: 'Operations That Run Without You.',
-  subheadline: 'We build the systems, document the processes, and train the teams so your business performs — whether we\'re in the room or not.',
-  cta: 'Get a Free Operations Assessment',
+  subheadline: 'We work with companies scaling faster than their operations can handle — typically $2M–$50M in revenue. We build the systems, document the processes, and train the teams so your business performs — whether we\'re in the room or not.',
+  cta: 'Book a Call',
   secondaryCta: 'See Our Results',
 }
 

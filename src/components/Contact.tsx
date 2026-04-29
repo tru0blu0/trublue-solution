@@ -56,13 +56,21 @@ export default function Contact() {
 
           <div className="gold-rule my-8" />
 
-          <a
-            href={`mailto:${site.email}?subject=Operations%20Assessment%20Request`}
-            className="inline-flex items-center gap-2 font-mono text-sm uppercase tracking-[0.1em] px-8 py-4 bg-navy text-white hover:bg-navy-light transition-colors rounded-md font-medium"
-          >
-            Request Your Free Assessment
-            <span aria-hidden="true">→</span>
-          </a>
+          <div className="flex flex-wrap justify-center gap-4">
+            <a
+              href="#book"
+              className="inline-flex items-center gap-2 font-mono text-sm uppercase tracking-[0.1em] px-8 py-4 bg-navy text-white hover:bg-navy-light transition-colors rounded-md font-medium"
+            >
+              Book a Call
+              <span aria-hidden="true">→</span>
+            </a>
+            <a
+              href={`mailto:${site.email}?subject=Operations%20Assessment%20Request`}
+              className="inline-flex items-center gap-2 font-mono text-sm uppercase tracking-[0.1em] px-8 py-4 border border-border text-text-dark hover:border-navy hover:text-navy transition-all rounded-md"
+            >
+              Email Us
+            </a>
+          </div>
         </motion.div>
       </div>
     </section>
