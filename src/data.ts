@@ -9,6 +9,8 @@ export const site = {
   siteUrl: 'https://trubluesolution.com',
   legalName: 'Trublue Solution, LLC',
   portfolioUrl: 'https://tru0blu0.github.io/portfolio',
+  available: true,
+  availableText: 'ACCEPTING NEW CLIENTS',
 }
 
 export const navItems = [

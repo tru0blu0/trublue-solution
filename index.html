@@ -54,6 +54,29 @@
     </script>
 
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <!-- GoatCounter — privacy-first analytics (no cookies) -->
+    <!-- Replace YOURCODE after signing up at https://www.goatcounter.com/ -->
+    <script data-goatcounter="https://YOURCODE.goatcounter.com/count"
+            async src="//gc.zgo.at/count.js"></script>
+
+    <!-- CTA event tracking (fires when GoatCounter is configured) -->
+    <script>
+      (function() {
+        var t = function(n) { window.goatcounter && window.goatcounter.count &&
+          window.goatcounter.count({ path: 'event:' + n, event: true }) }
+        document.addEventListener('click', function(e) {
+          var el = e.target.closest('a, button'); if (!el) return
+          var tx = (el.textContent || '').trim()
+          if (/Book a Call/i.test(tx)) t('cta-book-call')
+          if (/See Our Results/i.test(tx)) t('cta-see-results')
+          if (/Email Us/i.test(tx)) t('cta-email')
+          if (/Send Message/i.test(tx)) t('cta-contact-form')
+          if (/Request the checklist/i.test(tx)) t('cta-lead-magnet')
+          if (/Meet the founder/i.test(tx)) t('cta-founder-bio')
+        }, { passive: true })
+      })()
+    </script>
   </head>
   <body>
     <div id="root"></div>

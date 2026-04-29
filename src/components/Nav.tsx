@@ -36,6 +36,17 @@ export default function Nav() {
           </span>
         </a>
 
+        {/* Availability badge */}
+        {site.available && (
+          <div className="hidden md:flex items-center gap-1.5">
+            <span className="relative flex h-2 w-2">
+              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-gold opacity-75" />
+              <span className="relative inline-flex rounded-full h-2 w-2 bg-gold" />
+            </span>
+            <span className="font-mono text-[9px] tracking-[0.12em] text-gold">{site.availableText}</span>
+          </div>
+        )}
+
         {/* Desktop nav */}
         <nav className="hidden md:flex items-center gap-8" aria-label="Primary">
           {navItems.map((item) => (

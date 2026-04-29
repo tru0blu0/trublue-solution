@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion'
 import { site } from '../data'
+import ContactForm from './ContactForm'
 
 export default function Contact() {
   return (
@@ -17,6 +18,33 @@ export default function Contact() {
           <p className="text-lg text-text-muted mb-8 max-w-xl mx-auto">
             Every engagement starts with a free, no-obligation assessment. We'll map your current state and tell you what we'd do — before you commit to anything.
           </p>
+        </motion.div>
+
+        {/* Lead magnet */}
+        <motion.div
+          className="max-w-xl mx-auto mb-8 p-6 border border-gold/20 rounded-md bg-gold/[0.03] text-left"
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ delay: 0.05 }}
+        >
+          <div className="flex items-start gap-4">
+            <span aria-hidden="true" className="text-2xl shrink-0">📋</span>
+            <div>
+              <h3 className="font-display font-bold text-navy mb-1">Free Operations Health Check</h3>
+              <p className="text-sm text-text-muted leading-relaxed mb-3">
+                A 10-point diagnostic checklist to assess your operation's readiness for scale.
+                Identify gaps in process, measurement, and documentation before they become
+                expensive problems.
+              </p>
+              <a
+                href={`mailto:${site.email}?subject=Operations Health Check`}
+                className="font-mono text-xs uppercase tracking-[0.1em] text-gold hover:text-navy transition-colors font-medium"
+              >
+                Request the checklist →
+              </a>
+            </div>
+          </div>
         </motion.div>
 
         <motion.div
@@ -52,6 +80,13 @@ export default function Contact() {
                 <p className="font-medium text-navy">{site.location}</p>
               </div>
             </div>
+          </div>
+
+          <div className="gold-rule my-6" />
+
+          {/* Contact form */}
+          <div className="max-w-md mx-auto mb-6">
+            <ContactForm />
           </div>
 
           <div className="gold-rule my-8" />
