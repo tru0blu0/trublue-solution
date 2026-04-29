@@ -29,9 +29,12 @@ export default function Services() {
               transition={{ delay: i * 0.08 }}
             >
               <div className="text-3xl mb-4">{service.icon}</div>
-              <h3 className="font-display text-lg font-bold mb-3 group-hover:text-navy transition-colors">
+              <h3 className="font-display text-lg font-bold mb-1 group-hover:text-navy transition-colors">
                 {service.title}
               </h3>
+              <p className="font-mono text-xs tracking-[0.08em] text-gold mb-3">
+                {service.price}
+              </p>
               <p className="text-sm text-text-muted mb-4 leading-relaxed">
                 {service.description}
               </p>
