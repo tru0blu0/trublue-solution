@@ -23,10 +23,17 @@ export const navItems = [
 
 export const hero = {
   headline: 'Operations That Run Without You.',
-  subheadline: 'We work with companies scaling faster than their operations can handle — typically $2M–$50M in revenue. We build the systems, document the processes, and train the teams so your business performs — whether we\'re in the room or not.',
+  subheadline: 'Jackson, Michigan\'s operations consulting firm. We work with local manufacturers, logistics operators, and growth-stage businesses — building the systems, documenting the processes, and training the teams so your business performs whether we\'re in the room or not.',
   cta: 'Book a Call',
   secondaryCta: 'See Our Results',
 }
+
+export const jacksonStats = [
+  { value: 100, suffix: '+', label: 'Manufacturers in Jackson County' },
+  { value: 9, suffix: 'K', label: 'Manufacturing Jobs in Jackson MSA' },
+  { value: 11, suffix: 'K', label: 'Trade & Logistics Jobs Locally' },
+  { value: 4, suffix: '', label: 'Target Industries Served' },
+]
 
 export const stats = [
   { value: 16, suffix: '+', label: 'Years Operations Leadership' },

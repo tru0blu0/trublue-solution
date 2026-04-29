@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { hero, stats, about, site } from '../data'
+import { hero, jacksonStats, about, site } from '../data'
 
 export default function Hero() {
   return (
@@ -48,9 +48,9 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.4 }}
           >
-            <p className="font-mono text-xs uppercase tracking-[0.15em] text-gold mb-6">Proven Track Record</p>
+            <p className="font-mono text-xs uppercase tracking-[0.15em] text-gold mb-6">Jackson County Operations</p>
             <div className="grid grid-cols-2 gap-6">
-              {stats.map((stat) => (
+              {jacksonStats.map((stat) => (
                 <div key={stat.label}>
                   <div className="font-display text-3xl md:text-4xl font-bold text-navy tracking-tight">
                     {stat.value}{stat.suffix}

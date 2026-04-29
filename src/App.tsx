@@ -2,6 +2,7 @@ import Nav from './components/Nav'
 import Hero from './components/Hero'
 import Services from './components/Services'
 import CaseStudies from './components/CaseStudies'
+import JacksonIndustries from './components/JacksonIndustries'
 import Approach from './components/Approach'
 import Booking from './components/Booking'
 import AboutSection from './components/AboutSection'
@@ -15,6 +16,7 @@ export default function App() {
       <main>
         <Hero />
         <Services />
+        <JacksonIndustries />
         <CaseStudies />
         <Approach />
         <AboutSection />
